@@ -18,6 +18,12 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 650px) {
+  .picker h1 {
+    font-size: 48px;
+  }
+}
+
 .picker .btn {
   font-size: 40px;
   padding: 10px;
@@ -27,6 +33,12 @@ body {
   border: 5px solid antiquewhite;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  .picker .btn {
+    font-size: 32px;
+  }
 }
 
 .picker .btn:hover {
