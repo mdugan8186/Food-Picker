@@ -1,0 +1,142 @@
+/* ==== UNIVERSAL ==== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top left, #000, #28b487);
+  font-family: serif;
+}
+
+/* ==== PICKER SECTION ==== */
+.picker {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==== HEADER ==== */
+.picker h1 {
+  /* background: linear-gradient(to left, #FFF 0%, #000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: antiquewhite;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  margin: 1.25rem auto;
+}
+
+@media only screen and (max-width: 650px) {
+  .picker h1 {
+    width: 95%;
+    font-size: 3rem;
+  }
+}
+
+/* ==== PICK RESTAURANT BUTTON */
+.picker .btn {
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  color: antiquewhite;
+  background-color: black;
+  border: 0.3125rem solid antiquewhite;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  .picker .btn {
+    font-size: 2rem;
+  }
+}
+
+.picker .btn:hover {
+  color: black;
+  background-color: antiquewhite;
+  border: 0.3125rem solid black;
+}
+
+.picker .btn:active {
+  font-size: 2rem;
+  color: black;
+  background-color: antiquewhite;
+  border: 0.3125rem solid black;
+}
+
+/* ==== ANSWER (H2) ==== */
+.picker .answer {
+  font-size: 2.5rem;
+  margin: 1.25rem auto;
+}
+
+/* ==== CLEAR ANSWER BUTTON ==== */
+.picker .clear {
+  margin: 1.25rem auto 0;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  background-color: #000;
+  border: 0.125rem solid antiquewhite;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.picker .clear:hover {
+  color: #000;
+  background-color: antiquewhite;
+  border: 0.125rem solid #000;
+}
+
+.picker .clear:active {
+  font-size: 1.25rem;
+  color: #000;
+  background-color: antiquewhite;
+  border: 0.125rem solid #000;
+}
+
+/* ==== BACK HOME BUTTON ==== */
+.picker .home {
+  margin: 1.25rem auto 0;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  background-color: #000;
+  border: 0.125rem solid antiquewhite;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.picker a {
+  margin: 0 auto;
+}
+
+.home a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.home a:hover {
+  color: #000;
+}
+
+.picker .home:hover {
+  color: #000;
+  background-color: antiquewhite;
+  border: 0.125rem solid #000;
+}
+
+.picker .home:active {
+  font-size: 1.25rem;
+  color: #000;
+  background-color: antiquewhite;
+  border: 0.125rem solid #000;
+}
