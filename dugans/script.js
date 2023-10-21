@@ -25,7 +25,7 @@ document.querySelector('.btn').addEventListener('click', function () {
   } else if (num === 7) {
     answer('Wawa');
   } else if (num === 8) {
-    answer('Chipolte');
+    answer('Chipotle');
   } else if (num === 9) {
     answer('Taco Bell');
   } else if (num === 10) {
